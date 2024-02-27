@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+    <title>Challenge Encriptador Zarz</title>
+
+</head>
+<body>
+    <header>
+        <img class="logo" src="img/Logo.svg" alt="logo">
+    </header>
+    <main>
+        <section class=" sectionUno">
+            <div class="contenedorCajaTexto">
+                <textarea class="cajatexto" placeholder="Ingrese su texto aqui" name="" id="" cols="30" rows="10"></textarea>
+            </div>
+
+            <div class="alerta">
+                <img src="img/alerta.svg" alt="Alerta">
+                <p>Solo letra minusculas y sin acento!</p>
+            </div>
+
+            <div class="contenedorBotones">
+                <input type="button" class="botonEncriptar" value="Encriptar"> 
+                <input type="button" class="botonDesencriptar" value="Desencriptar"> 
+            </div>
+        </section>   
+        <section class="sectionDos">
+            <div class="contenedorMuneco">
+                <img class="muneco" src="img/Muñeco.svg" alt="las de harina pal muneco">
+            </div>
+            <div class="contenedorParrafo">
+                <h3>Ningun mensaje fue <br> Encontrado. </h3>
+                <p>Ingrese el texto que desees encriptar o <br>Desencriptar.</p>
+
+            </div>
+
+            <div class="contenedorCopiar">
+                <input type="button" class="botonCopiar" value="Copiar">
+
+            </div>
+
+            <div class="contenedorResultado">
+                <p class="textoResultado"></p>
+
+            </div>
+        </section> 
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
